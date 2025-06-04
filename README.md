@@ -49,18 +49,5 @@ Accurately predicting the risk of an avalanche can save lives and reduce damage.
   - Handles non-linearity and feature interactions well
   - Resistant to overfitting
   - Provides feature importance for interpretation
-
-python
-from sklearn.ensemble import RandomForestClassifier
-
-model = RandomForestClassifier(n_estimators=100, random_state=42)
-model.fit(X_train, y_train)
-📦 Avalanche_Prediction
-│
-├── data/                 # Raw and processed data
-├── models/               # Saved model files
-├── notebooks/            # Jupyter notebooks
-├── src/                  # Python scripts
-├── README.md             # Project overview
-
+  
 Happy ML-ing!!
